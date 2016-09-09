@@ -26,6 +26,9 @@
   },
   "frameworks": {
     "net4.5": {
+      "buildOptions": {
+        "define": [ "APPCONFIG" ]
+      },
       "frameworkAssemblies": {
         "System.Data": "",
         "System.Xml": "",
